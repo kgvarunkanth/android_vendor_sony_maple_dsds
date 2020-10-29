@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_airtel_in_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_airtel_in_ims_tar.mbn \
     vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_ais_th_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_ais_th_ims_tar.mbn \
     vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_asiapacific_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_asiapacific_tw_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_beeline_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_beeline_ims_tar.mbn \
     vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_china_mobile_cn_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_china_mobile_cn_ims_tar.mbn \
     vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_china_mobile_hk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_china_mobile_hk_ims_tar.mbn \
     vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_cht_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_cht_tw_ims_tar.mbn \
