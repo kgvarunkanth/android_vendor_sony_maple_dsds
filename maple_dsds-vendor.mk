@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_truemove_th_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_truemove_th_ims_tar.mbn \
     vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_tstar_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_tstar_tw_ims_tar.mbn \
     vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_twm_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_twm_tw_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_verizon_us_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_verizon_us_ims_tar.mbn \
     vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_vodafone_in_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_vodafone_in_ims_tar.mbn \
     vendor/sony/maple_dsds/proprietary/etc/dpm.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/dpm.conf \
     vendor/sony/maple_dsds/proprietary/etc/firmware/cmnlib.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.b00 \
