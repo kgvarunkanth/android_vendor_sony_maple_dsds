@@ -14,4 +14,4 @@ service dpmd /system/product/bin/dpmd
     socket dpmd stream 660 root radio
     socket tcm  stream 660 root inet
     socket dpmwrapper stream 660 root inet
-    group system readproc inet radio wakelock
+    group system readproc inet radio wakelock oem_2901
