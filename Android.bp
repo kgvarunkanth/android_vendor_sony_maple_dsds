@@ -20,9 +20,9 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "CameraAddonPermission-release",
+	name: "QtiTelephonyService",
 	owner: "sony",
-	apk: "proprietary/app/CameraAddonPermission-release/CameraAddonPermission-release.apk",
+	apk: "proprietary/app/QtiTelephonyService/QtiTelephonyService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -30,9 +30,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "CameraCommonPermission-release",
+	name: "datastatusnotification",
 	owner: "sony",
-	apk: "proprietary/app/CameraCommonPermission-release/CameraCommonPermission-release.apk",
+	apk: "proprietary/app/datastatusnotification/datastatusnotification.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -40,9 +40,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "CameraExtensionPermission-release",
+	name: "embms",
 	owner: "sony",
-	apk: "proprietary/app/CameraExtensionPermission-release/CameraExtensionPermission-release.apk",
+	apk: "proprietary/app/embms/embms.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -50,9 +50,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ImageProcessorPermission-release",
+	name: "uceShimService",
 	owner: "sony",
-	apk: "proprietary/app/ImageProcessorPermission-release/ImageProcessorPermission-release.apk",
+	apk: "proprietary/app/uceShimService/uceShimService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -60,20 +60,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ArtFilterCamera-xxhdpi-release",
+	name: "CNEService",
 	owner: "sony",
-	apk: "proprietary/priv-app/ArtFilterCamera-xxhdpi-release/ArtFilterCamera-xxhdpi-release.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "CameraCommon",
-	owner: "sony",
-	apk: "proprietary/priv-app/CameraCommon/CameraCommon.apk",
+	apk: "proprietary/priv-app/CNEService/CNEService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -82,42 +71,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "CameraPanorama-release",
+	name: "HotwordEnrollmentOKGoogleWCD9340",
 	owner: "sony",
-	apk: "proprietary/priv-app/CameraPanorama-release/CameraPanorama-release.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "CustomizationSelector",
-	owner: "sony",
-	apk: "proprietary/priv-app/CustomizationSelector/CustomizationSelector.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "SomcMovieCreator-release",
-	owner: "sony",
-	apk: "proprietary/priv-app/SomcMovieCreator-release/SomcMovieCreator-release.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "SoundPhotoCamera-xxhdpi-release",
-	owner: "sony",
-	apk: "proprietary/priv-app/SoundPhotoCamera-xxhdpi-release/SoundPhotoCamera-xxhdpi-release.apk",
+	apk: "proprietary/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -136,84 +92,38 @@ android_app_import {
 	privileged: true,
 }
 
-android_app_import {
-	name: "QtiTelephonyService",
-	owner: "sony",
-	apk: "proprietary/product/app/QtiTelephonyService/QtiTelephonyService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
 
 android_app_import {
-	name: "datastatusnotification",
+	name: "dpmserviceapp",
 	owner: "sony",
-	apk: "proprietary/product/app/datastatusnotification/datastatusnotification.apk",
+	apk: "proprietary/priv-app/dpmserviceapp/dpmserviceapp.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	product_specific: true,
-}
-
-android_app_import {
-	name: "embms",
-	owner: "sony",
-	apk: "proprietary/product/app/embms/embms.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
-	name: "uceShimService",
-	owner: "sony",
-	apk: "proprietary/product/app/uceShimService/uceShimService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
+	privileged: true,
 }
 
 android_app_import {
 	name: "ims",
 	owner: "sony",
-	apk: "proprietary/product/priv-app/ims/ims.apk",
+	apk: "proprietary/priv-app/ims/ims.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
-	product_specific: true,
 }
 
 android_app_import {
 	name: "qcrilmsgtunnel",
 	owner: "sony",
-	apk: "proprietary/product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "dpmserviceapp",
-	owner: "sony",
-	apk: "proprietary/product/priv-app/dpmserviceapp/dpmserviceapp.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
 }
 
 dex_import {
@@ -231,8 +141,159 @@ dex_import {
 dex_import {
 	name: "qcrilhook",
 	owner: "sony",
-	jars: ["proprietary/product/framework/qcrilhook.jar"],
-	product_specific: true,
+	jars: ["proprietary/framework/qcrilhook.jar"],
+}
+
+cc_prebuilt_library_shared {
+	name: "com.quicinc.cne.api@1.0",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/com.quicinc.cne.api@1.0.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so"],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "com.quicinc.cne.api@1.1",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/com.quicinc.cne.api@1.1.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/com.quicinc.cne.api@1.1.so"],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "com.quicinc.cne.constants@1.0",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so"],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "com.quicinc.cne.constants@2.0",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/com.quicinc.cne.constants@2.0.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/com.quicinc.cne.constants@2.0.so"],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "com.quicinc.cne.constants@2.1",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/com.quicinc.cne.constants@2.1.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/com.quicinc.cne.constants@2.1.so"],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "com.quicinc.cne.server@2.0",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/com.quicinc.cne.server@2.0.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/com.quicinc.cne.server@2.0.so"],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "com.quicinc.cne.server@2.1",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/com.quicinc.cne.server@2.1.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/com.quicinc.cne.server@2.1.so"],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "com.quicinc.cne.server@2.2",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/com.quicinc.cne.server@2.2.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/com.quicinc.cne.server@2.2.so"],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -304,6 +365,25 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmiscta.so"],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libqmi_cci",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libqmi_cci.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libqmi_cci.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -426,39 +506,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "CACertService",
-	owner: "sony",
-	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "CneApp",
-	owner: "sony",
-	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "IWlanService",
-	owner: "sony",
-	apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
 	name: "TimeService",
 	owner: "sony",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
@@ -468,3 +515,4 @@ android_app_import {
 	},
 	soc_specific: true,
 }
+

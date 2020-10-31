@@ -23,187 +23,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM)/bin/dpmd \
     vendor/sony/maple_dsds/proprietary/bin/mssconfig:$(TARGET_COPY_OUT_SYSTEM)/bin/mssconfig \
     vendor/sony/maple_dsds/proprietary/bin/perfservice:$(TARGET_COPY_OUT_SYSTEM)/bin/perfservice \
-    vendor/sony/maple_dsds/proprietary/bin/sony-modem-switcher:$(TARGET_COPY_OUT_SYSTEM)/bin/sony-modem-switcher \
     vendor/sony/maple_dsds/proprietary/bin/ssr_dumper:$(TARGET_COPY_OUT_SYSTEM)/bin/ssr_dumper \
     vendor/sony/maple_dsds/proprietary/bin/startup-logger:$(TARGET_COPY_OUT_SYSTEM)/bin/startup-logger \
     vendor/sony/maple_dsds/proprietary/bin/taimport:$(TARGET_COPY_OUT_SYSTEM)/bin/taimport \
     vendor/sony/maple_dsds/proprietary/bin/updatemiscta:$(TARGET_COPY_OUT_SYSTEM)/bin/updatemiscta \
     vendor/sony/maple_dsds/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fs_empty.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fs_empty.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_a1_austria_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_a1_austria_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_att_us_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_att_us_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_beeline_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_beeline_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_bell_ca_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_bell_ca_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_bite_latvia_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_bite_latvia_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_bite_lithuania_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_bite_lithuania_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_bouygues_france_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_bouygues_france_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_canada_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_canada_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_cellc_za_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_cellc_za_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_china_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_china_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_claro_br_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_claro_br_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_claro_br_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_claro_br_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_claro_cl_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_claro_cl_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_claro_co_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_claro_co_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_claro_co_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_claro_co_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_claro_pe_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_claro_pe_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dna_finland_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dna_finland_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_airtel_in_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_airtel_in_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_ais_th_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_ais_th_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_asiapacific_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_asiapacific_tw_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_china_mobile_cn_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_china_mobile_cn_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_china_mobile_hk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_china_mobile_hk_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_cht_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_cht_tw_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_csl_hk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_csl_hk_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_ctm_mo_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_ctm_mo_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_dtac_th_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_dtac_th_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_du_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_du_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_etisalat_ae_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_etisalat_ae_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_fareastone_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_fareastone_tw_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_gteb_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_gteb_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_hutch_hk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_hutch_hk_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_ir51_ir92_ims_gte_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_ir51_ir92_ims_gte_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_ir51_ir92_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_ir51_ir92_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_m1_sg_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_m1_sg_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_megafon_ru_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_megafon_ru_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_mts_ru_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_mts_ru_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_orange_poland_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_orange_poland_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_pccw_hk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_pccw_hk_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_reliance_com_in_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_reliance_com_in_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_reliance_jio_in_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_reliance_jio_in_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_singtel_sg_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_singtel_sg_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_smartone_hk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_smartone_hk_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_starhub_sg_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_starhub_sg_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_stc_sa_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_stc_sa_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_tele2_ru_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_tele2_ru_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_tmobile_us_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_tmobile_us_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_truemove_th_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_truemove_th_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_tstar_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_tstar_tw_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_dsds_twm_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_dsds_twm_tw_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_ee_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_ee_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_elisa_estonia_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_elisa_estonia_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_elisa_finland_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_elisa_finland_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_emt_estonia_volte_vilte_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_emt_estonia_volte_vilte_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_entel_cl_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_entel_cl_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_entel_pe_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_entel_pe_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_euro_dl256qam_only_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_euro_dl256qam_only_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_euro_dl256qam_ul64qam_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_euro_dl256qam_ul64qam_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_free_france_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_free_france_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_freedom_ca_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_freedom_ca_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_gteb_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_gteb_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_hutch_austria_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_hutch_austria_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_hutch_austria_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_hutch_austria_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_hutch_denmark_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_hutch_denmark_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_hutch_ireland_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_hutch_ireland_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_hutch_italy_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_hutch_italy_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_hutch_sweden_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_hutch_sweden_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_hutch_uk_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_hutch_uk_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_hutch_uk_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_hutch_uk_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_ir51_ir92_ims_gte_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_ir51_ir92_ims_gte_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_ir51_ir92_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_ir51_ir92_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_jazztel_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_jazztel_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_kpn_netherlands_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_kpn_netherlands_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_kpn_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_kpn_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_kt_kr_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_kt_kr_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_lguplus_kr_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_lguplus_kr_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_megafon_ru_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_megafon_ru_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_meo_portugal_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_meo_portugal_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_meteor_ireland_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_meteor_ireland_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_meteor_ireland_vowifi_only_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_meteor_ireland_vowifi_only_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_monaco_telecom_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_monaco_telecom_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_movistar_cl_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_movistar_cl_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_movistar_co_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_movistar_co_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_movistar_dtm_off_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_movistar_dtm_off_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_movistar_pe_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_movistar_pe_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_movistar_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_movistar_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_mtel_bulgaria_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_mtel_bulgaria_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_mtn_za_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_mtn_za_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_mts_ru_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_mts_ru_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_optus_au_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_optus_au_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_orange_france_pp_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_orange_france_pp_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_orange_france_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_orange_france_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_orange_france_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_orange_france_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_orange_group_lab_pp_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_orange_group_lab_pp_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_orange_poland_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_orange_poland_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_orange_poland_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_orange_poland_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_orange_poland_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_orange_poland_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_orange_romania_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_orange_romania_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_orange_slovakia_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_orange_slovakia_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_orange_spain_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_orange_spain_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_orange_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_orange_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_pelephone_israel_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_pelephone_israel_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_play_poland_vowifi_only_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_play_poland_vowifi_only_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_proximus_belgium_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_proximus_belgium_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_proximus_belgium_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_proximus_belgium_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_rogers_ca_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_rogers_ca_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_salt_switzerland_vowifi_only_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_salt_switzerland_vowifi_only_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_sfr_france_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_sfr_france_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_sfr_france_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_sfr_france_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_skt_kr_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_skt_kr_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_sky_uk_lab_vowifi_only_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_sky_uk_lab_vowifi_only_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_sky_uk_vowifi_only_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_sky_uk_vowifi_only_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_spark_nz_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_spark_nz_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_sunrise_switzerland_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_sunrise_switzerland_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_swisscom_switzerland_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_swisscom_switzerland_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_tdc_denmark_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_tdc_denmark_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telcel_mx_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telcel_mx_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telcel_mx_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telcel_mx_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_tele2_estonia_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_tele2_estonia_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_tele2_netherlands_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_tele2_netherlands_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_tele2_ru_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_tele2_ru_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_tele2_sweden_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_tele2_sweden_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telefonica_germany_volte_vilte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telefonica_germany_volte_vilte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telefonica_uk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telefonica_uk_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telefonica_uk_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telefonica_uk_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telekom_croatia_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telekom_croatia_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telekom_czech_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telekom_czech_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telekom_germany_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telekom_germany_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telekom_greece_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telekom_greece_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telekom_hungary_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telekom_hungary_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telekom_netherlands_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telekom_netherlands_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telekom_poland_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telekom_poland_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telekom_slovakia_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telekom_slovakia_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telekom_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telekom_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telenor_denmark_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telenor_denmark_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telenor_norway_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telenor_norway_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telenor_sweden_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telenor_sweden_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telia_denmark_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telia_denmark_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telia_finland_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telia_finland_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telia_lithuania_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telia_lithuania_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telia_norway_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telia_norway_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telia_sweden_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telia_sweden_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_telstra_au_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_telstra_au_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_tim_br_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_tim_br_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_tim_italy_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_tim_italy_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_tmobile_austria_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_tmobile_austria_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_tmobile_us_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_tmobile_us_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_turkcell_turkey_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_turkcell_turkey_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_turkcell_turkey_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_turkcell_turkey_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_turkcell_turkey_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_turkcell_turkey_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_turktelekom_turkey_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_turktelekom_turkey_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vha_au_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vha_au_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vipnet_croatia_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vipnet_croatia_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_virgin_uk_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_virgin_uk_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vivo_br_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vivo_br_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vivo_br_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vivo_br_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vodacom_za_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vodacom_za_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vodafone3_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vodafone3_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vodafone4_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vodafone4_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vodafone5_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vodafone5_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_czech_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vodafone_czech_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_germany_pp_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vodafone_germany_pp_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_germany_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vodafone_germany_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_global_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vodafone_global_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_hungary_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vodafone_hungary_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_italy_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vodafone_italy_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_spain_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vodafone_spain_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_turkey_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vodafone_turkey_ims_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_turkey_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vodafone_turkey_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_turkey_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vodafone_turkey_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_uk_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vodafone_uk_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_uk_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_vodafone_uk_volte_vowifi_tar.mbn \
-    vendor/sony/maple_dsds/proprietary/etc/customization/modem/amss_fsg_maple_wind_canada_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_maple_wind_canada_tar.mbn \
     vendor/sony/maple_dsds/proprietary/etc/dpm.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/dpm.conf \
     vendor/sony/maple_dsds/proprietary/etc/firmware/cmnlib.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.b00 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/cmnlib.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.b01 \
@@ -346,15 +170,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar \
     vendor/sony/maple_dsds/proprietary/framework/com.qualcomm.qti.uceservice-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qualcomm.qti.uceservice-V2.0-java.jar \
     vendor/sony/maple_dsds/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.api-V1.0-java.jar \
-    vendor/sony/maple_dsds/proprietary/framework/com.quicinc.cne.api-V1.1-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.api-V1.1-java.jar \
-    vendor/sony/maple_dsds/proprietary/framework/com.quicinc.cne.constants-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.constants-V1.0-java.jar \
-    vendor/sony/maple_dsds/proprietary/framework/com.quicinc.cne.constants-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.constants-V2.0-java.jar \
-    vendor/sony/maple_dsds/proprietary/framework/com.quicinc.cne.constants-V2.1-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.constants-V2.1-java.jar \
     vendor/sony/maple_dsds/proprietary/framework/com.quicinc.cne.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.jar \
-    vendor/sony/maple_dsds/proprietary/framework/com.quicinc.cne.server-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.server-V1.0-java.jar \
-    vendor/sony/maple_dsds/proprietary/framework/com.quicinc.cne.server-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.server-V2.0-java.jar \
-    vendor/sony/maple_dsds/proprietary/framework/com.quicinc.cne.server-V2.1-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.server-V2.1-java.jar \
-    vendor/sony/maple_dsds/proprietary/framework/com.quicinc.cne.server-V2.2-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.server-V2.2-java.jar \
     vendor/sony/maple_dsds/proprietary/framework/com.sonyericsson.idd_impl.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonyericsson.idd_impl.jar \
     vendor/sony/maple_dsds/proprietary/framework/com.sonymobile.getmore.api.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonymobile.getmore.api.jar \
     vendor/sony/maple_dsds/proprietary/framework/com.sonymobile.miscta_impl.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonymobile.miscta_impl.jar \
@@ -375,6 +191,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/lib/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.uceservice@2.0.so \
     vendor/sony/maple_dsds/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib/com.quicinc.cne.server@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.quicinc.cne.server@1.0.so \
+    vendor/sony/maple_dsds/proprietary/lib/libbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbase.so \
     vendor/sony/maple_dsds/proprietary/lib/lib-imscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imscamera.so \
     vendor/sony/maple_dsds/proprietary/lib/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvideocodec.so \
     vendor/sony/maple_dsds/proprietary/lib/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvt.so \
@@ -507,6 +324,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/lib64/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.imscmservice@2.1.so \
     vendor/sony/maple_dsds/proprietary/lib64/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.uceservice@2.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/com.quicinc.cne.server@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.quicinc.cne.server@1.0.so \
+    vendor/sony/maple_dsds/proprietary/lib64/libbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbase.so \
     vendor/sony/maple_dsds/proprietary/lib64/lib-imscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imscamera.so \
     vendor/sony/maple_dsds/proprietary/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvideocodec.so \
     vendor/sony/maple_dsds/proprietary/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvt.so \
@@ -523,8 +341,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/lib64/libOpenCL_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libOpenCL_system.so \
     vendor/sony/maple_dsds/proprietary/lib64/libQTEEConnector_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libQTEEConnector_system.so \
     vendor/sony/maple_dsds/proprietary/lib64/libadsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libadsprpc_system.so \
-    vendor/sony/maple_dsds/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
-    vendor/sony/maple_dsds/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/sony/maple_dsds/proprietary/lib64/libcacao_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcacao_client.so \
     vendor/sony/maple_dsds/proprietary/lib64/libcacao_pal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcacao_pal.so \
     vendor/sony/maple_dsds/proprietary/lib64/libcdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcdsprpc_system.so \
@@ -554,6 +370,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/lib64/libqti-util_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti-util_system.so \
     vendor/sony/maple_dsds/proprietary/lib64/libqti_performance.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti_performance.so \
     vendor/sony/maple_dsds/proprietary/lib64/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/librcc.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/android.hidl.base@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hidl.base@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/android.hidl.manager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hidl.manager@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/android.hidl.base@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hidl.base@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/android.hidl.manager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hidl.manager@1.0.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
     vendor/sony/maple_dsds/proprietary/lib64/libsdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsdsprpc_system.so \
     vendor/sony/maple_dsds/proprietary/lib64/libseccam.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libseccam.so \
@@ -614,6 +434,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.somc.hardware.security.secd@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.somc.hardware.security.secd@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.somc.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.somc.hardware.wifi.supplicant@2.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.somc.hardware.wifi@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.somc.hardware.wifi@2.0.so \
+    vendor/sony/maple_dsds/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so \
+    vendor/sony/maple_dsds/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
     vendor/sony/maple_dsds/proprietary/vendor/sony/touch/images/big_touch.png:$(TARGET_COPY_OUT_VENDOR)/sony/touch/images/big_touch.png \
     vendor/sony/maple_dsds/proprietary/vendor/sony/touch/images/splash.png:$(TARGET_COPY_OUT_VENDOR)/sony/touch/images/splash.png
 
@@ -623,7 +445,6 @@ PRODUCT_PACKAGES += \
     embms \
     uceShimService \
     CNEService \
-    CustomizationSelector \
     HotwordEnrollmentOKGoogleWCD9340 \
     WfdService \
     dpmserviceapp \
@@ -631,8 +452,15 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     WfdCommon \
     com.fingerprints.extension \
-    qcrilhook
+    qcrilhook \
+    TimeService 
+
 PRODUCT_COPY_FILES += \
+    vendor/sony/maple_dsds/proprietary/etc/permissions/privapp-permissions-com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
+    vendor/sony/maple_dsds/proprietary/product/lib/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.gnss@3.0.so \
+    vendor/sony/maple_dsds/proprietary/product/lib64/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@3.0.so \
+    vendor/sony/maple_dsds/proprietary/lib/libimageprocessorjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimageprocessorjni.so \
+    vendor/sony/maple_dsds/proprietary/lib64/libimageprocessorjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimageprocessorjni.so \
     vendor/sony/maple_dsds/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/sony/maple_dsds/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/sony/maple_dsds/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
@@ -945,18 +773,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile4.xml \
     vendor/sony/maple_dsds/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile5.xml \
     vendor/sony/maple_dsds/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile6.xml \
-    vendor/sony/maple_dsds/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile7.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile7.xml \
     vendor/sony/maple_dsds/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile1.xml \
-    vendor/sony/maple_dsds/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile15.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile15.xml \
-    vendor/sony/maple_dsds/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile16.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile16.xml \
-    vendor/sony/maple_dsds/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile17.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile17.xml \
-    vendor/sony/maple_dsds/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile18.xml \
-    vendor/sony/maple_dsds/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile19.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile19.xml \
     vendor/sony/maple_dsds/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile2.xml \
-    vendor/sony/maple_dsds/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile20.xml \
-    vendor/sony/maple_dsds/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile21.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile21.xml \
     vendor/sony/maple_dsds/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile3.xml \
-    vendor/sony/maple_dsds/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile32.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile32.xml \
     vendor/sony/maple_dsds/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile4.xml \
     vendor/sony/maple_dsds/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile5.xml \
     vendor/sony/maple_dsds/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile6.xml \
@@ -1149,8 +968,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/gatekeeper.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8998.so \
-    vendor/sony/maple_dsds/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
-    vendor/sony/maple_dsds/proprietary/vendor/lib/hw/gralloc.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.msm8998.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/keystore.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8998.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/lights.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.default.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/sound_trigger.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.msm8998.so \
@@ -1160,6 +977,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/vulkan.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.msm8998.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/hw/gralloc.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.msm8998.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/kobjeventd/touch_cover.so:$(TARGET_COPY_OUT_VENDOR)/lib/kobjeventd/touch_cover.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-dplmedia.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscmservice.so \
@@ -1202,6 +1021,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_vendor.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdMetaData.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSecureUILib.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libStDrvInt.so \
@@ -1320,7 +1140,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/lib/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/libprotobuf-c.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-c.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
-    vendor/sony/maple_dsds/proprietary/vendor/lib/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdMetaData.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqisl.so \
@@ -1498,8 +1317,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/gatekeeper.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8998.so \
-    vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
-    vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/gralloc.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.msm8998.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/keystore.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8998.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/lights.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.default.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.msm8998.so \
@@ -1509,6 +1326,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/vulkan.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm8998.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/gralloc.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.msm8998.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/kobjeventd/touch_cover.so:$(TARGET_COPY_OUT_VENDOR)/lib64/kobjeventd/touch_cover.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscmservice.so \
@@ -1549,6 +1368,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_vendor.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdMetaData.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriver_adreno.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureUILib.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
@@ -1645,7 +1465,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/libprotobuf-c-idd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-c-idd.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/libprotobuf-c.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-c.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
-    vendor/sony/maple_dsds/proprietary/vendor/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdMetaData.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdi.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdp.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqisl.so \
@@ -1760,5 +1579,4 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libta \
     libthermalclient \
-    libtime_genoff \
-    TimeService
+    libtime_genoff 
